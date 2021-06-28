@@ -11,10 +11,11 @@ let[value,setValue] = useState(0);
     <>
     <h1>SIMPLE COUNTER</h1>
     <h1>{value}</h1>
+    <div class = 'container'>
     <button class = 'btn' onClick ={()=>setValue(++value)}>increase</button>
     <button class = 'btn' onClick = {()=>setValue(0)}>reset</button>
     <button class ='btn' onClick= {()=>setValue(--value)}>decrease</button>
-
+    </div>
     </>
 
   
